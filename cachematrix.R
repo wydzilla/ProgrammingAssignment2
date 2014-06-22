@@ -60,7 +60,7 @@ cacheSolve <- function(x, ...) {
     #if inverse is already calculated, use it
     if(!is.null(inv)) {
         message("getting cached inverted matrix")
-        return inv
+        return(inv)
     }
 
     #nothig was cached, so get matrix to inverte it
